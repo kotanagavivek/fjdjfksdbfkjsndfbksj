@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "traceResolution": true,
+    "baseUrl": "./",
+    "paths": {
+      "@controllers*": [
+        "src/controllers*"
+      ],
+      "@filter*": [
+        "src/filter*"
+      ],
+      "@routers*": [
+        "src/routers*"
+      ],
+      "@services": [
+        "src/services"
+      ],
+      "@util*": [
+        "src/util*"
+      ],
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
